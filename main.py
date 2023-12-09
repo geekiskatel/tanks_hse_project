@@ -520,6 +520,7 @@ class HSE:
         """Draws the HSE logo on the game window."""
         window.blit(imgHSE, self.rect)
 
+
 # Здесь хранится информация о пулях
 bullets = []
 # Здесь хранятся все объекты, которые есть в игре
