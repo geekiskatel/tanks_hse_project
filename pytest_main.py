@@ -12,6 +12,15 @@ def test_bullet_update_position():
     pygame.quit()
 
 
+# Негативный тест для проверки скорости пули
+def test_bullet_update_position_negative():
+    pygame.init()
+    bullet = Bullet(None, 100, 100, 5, 0, 1)
+    bullet.update()
+    assert bullet.px < 106
+    pygame.quit()
+
+
 # Проверка позитивного исхода при нанесении урона боку
 def test_block_damage():
     pygame.init()
