@@ -43,7 +43,7 @@ sound_star = pygame.mixer.Sound("sounds/star.wav")
 # Загрузка звука активации читов
 sound_of_trolling = pygame.mixer.Sound("sounds/little_trolling.mp3")
 # Загрузка звука смерти
-sound_finish = pygame.mixer.Sound("sounds/level_finish.mp3")
+sound_finish = pygame.mixer.Sound("sounds/death.mp3")
 # Загрузка звука ремикса основной мелодии
 sound_theme = pygame.mixer.Sound("sounds/main_theme_remix.mp3")
 
